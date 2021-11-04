@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #090b1a;
+}
+
+#main {
+  width: 1110px;
+  min-height: 445px;
+  background-color: #090b1a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.left {
+  width: 570px;
+  background-color: #1b1938;
+}
+
+.left h1 {
+  margin: 80px 125px 30px 75px;
+  font-size: 35px;
+  color: white;
+}
+
+.left span {
+  font-size: 35px;
+  color: #aa5cdb;
+}
+
+.left p {
+  width: 350px;
+  height: 70px;
+  margin-left: 75px;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 23px;
+}
+
+.left .stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 80px 450px 70px 75px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 350px;
+}
+
+.left .stats .box {
+  width: 80px;
+  height: 45px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 25px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 10px;
+}
+
+.left .stats .box span {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.right {
+  width: 540px;
+  background: url(../images/image-header-desktop.jpg) no-repeat;
+  background-blend-mode: overlay;
+  background-color: #aa5cdb;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
